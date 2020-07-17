@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 	@GetMapping("/hello")
 	public String helloWorld() {
-		return "Hello World CI/CD";
+		return "Hello World CI/CD -- GitHub-Webhook implemented successfully";
 	}
 }
